@@ -13,7 +13,8 @@ data = load_data()
     
 st.metric("ML Task", "Binary Classification")
 st.info("🎯 Predict whether an individual stock will outperform S&P 500 index over the next 21 days (~ 1 month)")
-st.metric("Date Range", f"{data['raw']['Date'].min().date()} to {data['raw']['Date'].max().date()}")
+if 'raw' in data:
+    st.metric("Date Range", f"{data['raw']['Date'].min().date()} to {data['raw']['Date'].max().date()}")
 col1, col2, col3 = st.columns(3)
 with col1:
     if 'raw' in data:
