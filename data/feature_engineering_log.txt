@@ -1,0 +1,27 @@
+FEATURE ENGINEERING LOG
+======================================================================
+
+1. daily_return: Stock daily return (pct_change)
+2. r_1W: 1-week (5-day) return
+3. r_1M: 1-month (21-day) return
+4. r_3M: 3-month (63-day) return
+5. vol_1M: 1-month volatility (rolling std of daily returns)
+6. MA20_ratio: Close / MA20
+7. MA50_ratio: Close / MA50
+8. HL_range: (High - Low) / Close
+9. vol_z: Volume z-score (Volume - mean(20)) / std(20)
+10. sp500_daily_return: SP500 daily return
+11. sp500_vol_1M: SP500 1-month volatility
+12. relative_return: stock_return - sp500_return
+13. volatility_ratio: stock_vol / sp500_vol
+14. CPI_chg: CPI percentage change
+15. FedFunds_chg: Federal Funds Rate change (absolute)
+16. VIX_t: VIX index (direct use)
+17. FedFunds_t: Federal Funds Rate (direct use)
+18. Put_Call_Ratio_t: Put/Call Ratio (direct use)
+19. Market_Breadth_t: Market Breadth (direct use)
+20. spy_RSI_t: SPY RSI (direct use)
+21. spy_SMA_50_t, spy_SMA_200_t: SPY moving averages
+22. qqq_RSI_t: QQQ RSI (direct use)
+23. qqq_SMA_50_t, qqq_SMA_200_t: QQQ moving averages
+24. sector_XLK_t, sector_XLF_t, etc.: Sector ETF prices (direct use)

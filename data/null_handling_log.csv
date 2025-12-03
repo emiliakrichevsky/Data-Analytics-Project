@@ -1,0 +1,4 @@
+column,nulls_before,method,nulls_after,handled
+GDP,30,Backward Fill (Grouped by Stock),0,30
+CPI,9,Backward Fill (Grouped by Stock),0,9
+Unemployment_Rate,9,Backward Fill (Grouped by Stock),0,9
