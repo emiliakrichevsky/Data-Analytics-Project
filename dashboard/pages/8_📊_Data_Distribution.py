@@ -2,7 +2,6 @@ import plotly
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
 import plotly.tools as tls
 from utils import get_data, create_page_header, get_data_distribution, plot_data_distribution, create_box_plot
 
