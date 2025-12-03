@@ -4,3 +4,4 @@ plotly
 scikit-learn
 h2o
 numpy
+matplotlib
